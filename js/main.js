@@ -50,3 +50,10 @@ var presidents = [
 ];
 
 console.log(presidents[2]['firstName'] + ' ' + presidents[2]['lastName']);
+
+function howdy(person, message) {
+	return person + 'says' + message;
+}
+
+var messge = combiner('Megan Sjuts', 'hello!');
+console.log(message);
