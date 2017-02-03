@@ -55,5 +55,5 @@ function howdy(person, message) {
 	return person + 'says' + message;
 }
 
-var messge = combiner('Megan Sjuts', 'hello!');
+var message = howdy('Megan Sjuts', 'hello!');
 console.log(message);
