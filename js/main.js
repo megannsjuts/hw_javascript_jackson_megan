@@ -51,9 +51,24 @@ var presidents = [
 
 console.log(presidents[2]['firstName'] + ' ' + presidents[2]['lastName']);
 
-function howdy(person, message) {
-	return person + 'says' + message;
+function howdy(firstName, lastName, message) {
+	return firstName + lastName + ' says ' + message;
 }
 
-var message = howdy('Megan Sjuts', 'hello!');
+var message = howdy('Megan', 'Sjuts', 'hello!');
 console.log(message);
+
+var numba = function a(string) {
+
+	if (string < 7) {
+		console.log('What a short little word!');
+
+
+	}else if (string == 7) {
+		console.log('7, what a perfect choice!');
+
+	}else {
+		console.log('I’m sorry, but that’s too many to count.');
+}
+
+};
