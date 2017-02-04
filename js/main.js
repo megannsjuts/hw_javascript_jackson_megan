@@ -75,5 +75,4 @@ function inception(display, favMovie) {
 	display(favMovie);
 }
 
-var favMovie = inception('is a fantastic movie.');
-console.log(favMovie + 'is a fantastic movie.');
+inception ()
