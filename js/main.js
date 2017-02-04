@@ -58,17 +58,22 @@ function howdy(firstName, lastName, message) {
 var message = howdy('Megan', 'Sjuts', 'hello!');
 console.log(message);
 
-var numba = function a(string) {
+var numba = function (string) {
 
-	if (string < 7) {
+	if (string.length < 7) {
 		console.log('What a short little word!');
 
-
-	}else if (string == 7) {
+} else if (string.length === 7) {
 		console.log('7, what a perfect choice!');
 
-	}else {
+} else {
 		console.log('I’m sorry, but that’s too many to count.');
 }
-
 };
+
+function inception(display, favMovie) {
+	display(favMovie);
+}
+
+var favMovie = inception('is a fantastic movie.');
+console.log(favMovie + 'is a fantastic movie.');
